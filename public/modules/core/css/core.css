@@ -1,0 +1,280 @@
+.content {
+    margin-top: 50px;
+}
+
+/* Angular Material Header NavBar
+
+/*.md-toolbar-tools h1 {*/
+    /*font-size: inherit;*/
+    /*font-weight: inherit;*/
+    /*margin: inherit;*/
+/*}*/
+
+/*.toolbardemoBasicUsage md-toolbar md-icon.md-default-theme {*/
+    /*color: white; }*/
+
+
+.undecorated-link:hover {
+    text-decoration: none;
+}
+
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+    display: none !important;
+}
+
+.ng-invalid.ng-dirty {
+    border-color: #FA787E;
+}
+
+.ng-valid.ng-dirty {
+    border-color: #78FA89;
+}
+
+.WedBound_Splash {
+    max-width: 100%;
+}
+
+.jumbotron {
+    padding-top: 0;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    color: inherit;
+    background-color: #DDDDDD;
+}
+
+@media screen and (min-width: 768px) {
+    .jumbotron {
+        padding-top: 0;
+        padding-bottom: 48px;
+    }
+
+    .container .jumbotron,
+    .container-fluid .jumbotron {
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .jumbotron h1,
+    .jumbotron .h1 {
+        font-size: 63px;
+    }
+}
+
+.content {
+    background: url(/modules/core/img/bckgrnds/mosaic-background-3.jpg) center no-repeat;
+    /*background: url(/modules/core/img/bckgrnds/seamlesstexture3.jpg) center repeat;*/
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 90%;
+    }
+
+    @media (min-width: 992px) {
+        .container {
+            width: 90%;
+        }
+
+        @media (min-width: 768px) {
+            .container {
+                width: 90%;
+            }
+        }
+    }
+}
+
+.jumbotron p {
+    /*font-size: 24px;*/
+    font-size: 3.5vw;
+}
+
+.lead {
+    color: #080808;
+}
+
+h2 {
+    font-size: 2vw;
+}
+
+.desc {
+    text-align: center;
+    /*font-size: 20px;*/
+    font-size: 1.5vw;
+    color: black;
+}
+
+.desc ul {
+    display: table;
+    margin: 0 auto;
+    text-align: justify;
+
+}
+
+/* iPhone 4 % 4s */
+
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 480px)
+and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* iPhone 5 & 5s */
+
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 568px)
+and (-webkit-min-device-pixel-ratio: 2) {
+
+
+}
+
+/* iPhone 6 */
+
+@media only screen
+and (min-device-width: 375px)
+and (max-device-width: 667px)
+and (-webkit-min-device-pixel-ratio: 2) {
+
+
+
+}
+
+/* iPhone 6+ */
+
+@media only screen
+and (min-device-width: 414px)
+and (max-device-width: 736px)
+and (-webkit-min-device-pixel-ratio: 3) {
+
+
+}
+
+/* Galaxy S3 */
+
+@media screen
+and (device-width: 320px)
+and (device-height: 640px)
+and (-webkit-device-pixel-ratio: 2) {
+
+
+}
+
+/* Galaxy S4 */
+
+@media screen
+and (device-width: 320px)
+and (device-height: 640px)
+and (-webkit-device-pixel-ratio: 3) {
+
+
+}
+
+/* Galaxy S5 */
+
+@media screen
+and (device-width: 360px)
+and (device-height: 640px)
+and (-webkit-device-pixel-ratio: 3) {
+
+
+}
+
+/* HTC One */
+
+@media screen
+and (device-width: 360px)
+and (device-height: 640px)
+and (-webkit-device-pixel-ratio: 3) {
+
+
+}
+
+/* iPad Mini */
+
+@media only screen
+and (min-device-width: 768px)
+and (max-device-width: 1024px)
+and (-webkit-min-device-pixel-ratio: 1) {
+
+
+}
+
+/* iPad 1 & 2 */
+
+@media only screen
+and (min-device-width: 768px)
+and (max-device-width: 1024px)
+and (-webkit-min-device-pixel-ratio: 1) {
+
+
+}
+
+/* iPad 2 & 3 */
+
+@media only screen
+and (min-device-width: 768px)
+and (max-device-width: 1024px)
+and (-webkit-min-device-pixel-ratio: 2) {
+
+
+}
+
+/* Galaxy Tab 10.1 */
+
+@media
+(min-device-width: 800px)
+and (max-device-width: 1280px) {
+
+
+}
+
+/* Asus Nexus 7 */
+
+@media screen
+and (device-width: 601px)
+and (device-height: 906px)
+and (-webkit-min-device-pixel-ratio: 1.331)
+and (-webkit-max-device-pixel-ratio: 1.332) {
+
+
+}
+
+/* Kindle Fire HD 7" */
+
+@media only screen
+and (min-device-width: 800px)
+and (max-device-width: 1280px)
+and (-webkit-min-device-pixel-ratio: 1.5) {
+
+
+}
+
+/* Kindle Fire HD 8.9" */
+
+@media only screen
+and (min-device-width: 1200px)
+and (max-device-width: 1600px)
+and (-webkit-min-device-pixel-ratio: 1.5) {
+
+
+}
+
+/* ----------- Non-Retina Screens ----------- */
+
+@media screen
+and (min-device-width: 1200px)
+and (max-device-width: 1600px)
+and (-webkit-min-device-pixel-ratio: 1) {
+
+}
+
+/* ----------- Retina Screens ----------- */
+
+@media screen
+and (min-device-width: 1200px)
+and (max-device-width: 1600px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (min-resolution: 192dpi) {
+
+}
