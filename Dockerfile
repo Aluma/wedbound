@@ -1,6 +1,6 @@
 FROM dockerfile/nodejs
 
-MAINTAINER Matthias Luebken, matthias@catalyst-zero.com
+MAINTAINER Jimmy Thanki, jimmy.thanki@gmail.com
 
 WORKDIR /home/mean
 
